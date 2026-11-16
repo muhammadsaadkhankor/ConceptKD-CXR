@@ -1,0 +1,45 @@
+{
+  "readme_bytes": 0,
+  "settings_origin": "No full-run schedule documented; use trainer defaults with full-data sampler bypass",
+  "row_filter": "Frontal views only; no label-based row exclusion, so target-negative examples are retained",
+  "label_policy": "Only 0 and 1 observed; -1/blank masked",
+  "settings": {
+    "model": "mobilenet_v3_small",
+    "epochs": 2,
+    "batch_size": 8,
+    "num_workers": 0,
+    "seed": 42,
+    "lr": 0.0001,
+    "optimizer": "AdamW",
+    "weight_decay": 0.0001,
+    "initialization": "MobileNet_V3_Small_Weights.IMAGENET1K_V1"
+  },
+  "splits": {
+    "train": {
+      "source_csv": "D:\\Grad School\\AppliedML\\CheXpert\\data\\train.csv",
+      "source_sha256": "b4bcd3d7942de23349bbe922a2389185d639cb06a24e700efb4980caae80b8e8",
+      "expected_images": 191027,
+      "patients": 64534,
+      "expected_observed_labels": 262378,
+      "negative_labels": 69716,
+      "images_without_target_positive": 67226,
+      "all_targets_explicit_negative": 4,
+      "all_targets_unobserved": 39095,
+      "expected_batches": 23879,
+      "expected_last_batch_images": 3
+    },
+    "valid": {
+      "source_csv": "D:\\Grad School\\AppliedML\\CheXpert\\data\\valid.csv",
+      "source_sha256": "aa43403f7bb183a35ae3bb9152896c1fe9a5b297635e0b541e363b776830ec4a",
+      "expected_images": 202,
+      "patients": 200,
+      "expected_observed_labels": 1010,
+      "negative_labels": 731,
+      "images_without_target_positive": 74,
+      "all_targets_explicit_negative": 74,
+      "all_targets_unobserved": 0,
+      "expected_batches": 26,
+      "expected_last_batch_images": 2
+    }
+  }
+}

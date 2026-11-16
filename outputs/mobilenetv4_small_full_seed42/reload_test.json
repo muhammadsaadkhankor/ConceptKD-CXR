@@ -1,0 +1,53 @@
+{
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce GTX 1080 Ti",
+  "checkpoints": [
+    {
+      "path": "D:\\Grad School\\AppliedML\\CheXpert\\ConceptKD-CXR\\outputs\\mobilenetv4_small_full_seed42\\student_best.pth",
+      "epoch": 2,
+      "architecture": "mobilenetv4_conv_small",
+      "labels": [
+        "Atelectasis",
+        "Cardiomegaly",
+        "Consolidation",
+        "Edema",
+        "Pleural Effusion"
+      ],
+      "model_identifier": "mobilenetv4_conv_small.e2400_r224_in1k",
+      "fresh_model": true,
+      "strict_load": true,
+      "images": 8,
+      "logits_shape": [
+        8,
+        5
+      ],
+      "all_finite": true,
+      "minimum_logit": -2.0506250858306885,
+      "maximum_logit": 3.7940285205841064
+    },
+    {
+      "path": "D:\\Grad School\\AppliedML\\CheXpert\\ConceptKD-CXR\\outputs\\mobilenetv4_small_full_seed42\\student_last.pth",
+      "epoch": 2,
+      "architecture": "mobilenetv4_conv_small",
+      "labels": [
+        "Atelectasis",
+        "Cardiomegaly",
+        "Consolidation",
+        "Edema",
+        "Pleural Effusion"
+      ],
+      "model_identifier": "mobilenetv4_conv_small.e2400_r224_in1k",
+      "fresh_model": true,
+      "strict_load": true,
+      "images": 8,
+      "logits_shape": [
+        8,
+        5
+      ],
+      "all_finite": true,
+      "minimum_logit": -2.0506250858306885,
+      "maximum_logit": 3.7940285205841064
+    }
+  ],
+  "raw_weights_match_last_checkpoint": true
+}

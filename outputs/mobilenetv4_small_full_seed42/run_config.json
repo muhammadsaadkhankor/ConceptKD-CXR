@@ -1,0 +1,63 @@
+{
+  "architecture": "mobilenetv4_conv_small",
+  "model_option": "mobilenetv4_small",
+  "model_backend": "timm",
+  "model_identifier": "mobilenetv4_conv_small.e2400_r224_in1k",
+  "timm_version": "1.0.31",
+  "torchvision_version": "0.27.1+cu126",
+  "initialization": "ImageNet-1k pretrained backbone; newly initialized five-output classifier",
+  "labels": [
+    "Atelectasis",
+    "Cardiomegaly",
+    "Consolidation",
+    "Edema",
+    "Pleural Effusion"
+  ],
+  "seed": 42,
+  "pretrained": true,
+  "full_data": true,
+  "configured_epochs": 2,
+  "settings_origin": "Trainer defaults; README.md is empty and no separate full-run schedule is documented",
+  "run_started_utc": "2026-11-16T20:38:55.928049+00:00",
+  "optimizer": "AdamW",
+  "weight_decay": 0.0001,
+  "row_filter": "Frontal views only; no positive-only requirement or other-finding exclusion",
+  "train_image_count": 191027,
+  "val_image_count": 202,
+  "train_patient_count": 64534,
+  "val_patient_count": 200,
+  "patient_overlap": 0,
+  "train_csv": "D:\\Grad School\\AppliedML\\CheXpert\\data\\train.csv",
+  "valid_csv": "D:\\Grad School\\AppliedML\\CheXpert\\data\\valid.csv",
+  "data_dir": "D:\\Grad School\\AppliedML\\CheXpert\\data",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce GTX 1080 Ti",
+  "torch_version": "2.12.1+cu126",
+  "cuda_version": "12.6",
+  "batch_size": 8,
+  "num_workers": 0,
+  "lr": 0.0001,
+  "train_observed_labels": 262378,
+  "val_observed_labels": 1010,
+  "pretrained_source": "timm/mobilenetv4_conv_small.e2400_r224_in1k",
+  "preprocessing": {
+    "resize": [
+      224,
+      224
+    ],
+    "mode": "RGB",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "label_policy": "Only exact 0 and 1 are observed; uncertain -1 and blank/NaN are masked from loss and accuracy.",
+  "accuracy": "Correct observed binary labels / observed labels; sigmoid threshold >= 0.5. Not per-image accuracy.",
+  "loss": "Mean binary cross entropy with logits over observed labels."
+}

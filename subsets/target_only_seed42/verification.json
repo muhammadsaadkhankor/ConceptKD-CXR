@@ -1,0 +1,148 @@
+{
+  "seed": 42,
+  "source_csv": "D:\\Grad School\\AppliedML\\CheXpert\\data\\train.csv",
+  "reserved_original_validation_csv": "D:\\Grad School\\AppliedML\\CheXpert\\data\\valid.csv",
+  "data_dir": "D:\\Grad School\\AppliedML\\CheXpert\\data",
+  "source_sha256": {
+    "D:\\Grad School\\AppliedML\\CheXpert\\data\\train.csv": "b4bcd3d7942de23349bbe922a2389185d639cb06a24e700efb4980caae80b8e8",
+    "D:\\Grad School\\AppliedML\\CheXpert\\data\\valid.csv": "aa43403f7bb183a35ae3bb9152896c1fe9a5b297635e0b541e363b776830ec4a"
+  },
+  "trainer_sha256": "32a4d5cf38f41a2c762cc213aed5f2a62ef715fed5f28abc5d8070ad261a2f2d",
+  "eligible_images": 18896,
+  "eligible_patients": 13305,
+  "excluded_if_positive": [
+    "No Finding",
+    "Enlarged Cardiomediastinum",
+    "Lung Opacity",
+    "Lung Lesion",
+    "Pneumonia",
+    "Pneumothorax",
+    "Pleural Other",
+    "Fracture",
+    "Support Devices"
+  ],
+  "selection_method": "Validation first; greedy positive/negative coverage weighted by rarity and remaining deficit; seeded random tie-breaking; one image per patient globally.",
+  "sampling_goals": {
+    "validation": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "train": [
+      12,
+      12,
+      12,
+      12,
+      12,
+      8,
+      8,
+      8,
+      8,
+      8
+    ]
+  },
+  "goal_order": [
+    "Atelectasis: positive",
+    "Cardiomegaly: positive",
+    "Consolidation: positive",
+    "Edema: positive",
+    "Pleural Effusion: positive",
+    "Atelectasis: negative",
+    "Cardiomegaly: negative",
+    "Consolidation: negative",
+    "Edema: negative",
+    "Pleural Effusion: negative"
+  ],
+  "patient_overlap": 0,
+  "unique_images_total": 100,
+  "all_100_images_opened": true,
+  "original_values_preserved": true,
+  "split_reports": {
+    "train": {
+      "csv": "D:\\Grad School\\AppliedML\\CheXpert\\ConceptKD-CXR\\subsets\\target_only_seed42\\train_80.csv",
+      "sha256": "8e3102f060593f8a5459579eb50e29607952d6a8b404afc88282cfe17b1e66e1",
+      "images": 80,
+      "patients": 80,
+      "images_opened": 80,
+      "label_counts": {
+        "Atelectasis": {
+          "positive": 27,
+          "negative": 8,
+          "uncertain": 7,
+          "blank": 38
+        },
+        "Cardiomegaly": {
+          "positive": 25,
+          "negative": 9,
+          "uncertain": 3,
+          "blank": 43
+        },
+        "Consolidation": {
+          "positive": 18,
+          "negative": 13,
+          "uncertain": 6,
+          "blank": 43
+        },
+        "Edema": {
+          "positive": 38,
+          "negative": 13,
+          "uncertain": 1,
+          "blank": 28
+        },
+        "Pleural Effusion": {
+          "positive": 37,
+          "negative": 13,
+          "uncertain": 5,
+          "blank": 25
+        }
+      }
+    },
+    "validation": {
+      "csv": "D:\\Grad School\\AppliedML\\CheXpert\\ConceptKD-CXR\\subsets\\target_only_seed42\\validation_20.csv",
+      "sha256": "f9ba35db3fa92e7dfec5f939eda016ec3ab860e7eaa7dd451485b5bf0a19c80e",
+      "images": 20,
+      "patients": 20,
+      "images_opened": 20,
+      "label_counts": {
+        "Atelectasis": {
+          "positive": 8,
+          "negative": 3,
+          "uncertain": 2,
+          "blank": 7
+        },
+        "Cardiomegaly": {
+          "positive": 4,
+          "negative": 2,
+          "uncertain": 0,
+          "blank": 14
+        },
+        "Consolidation": {
+          "positive": 5,
+          "negative": 4,
+          "uncertain": 2,
+          "blank": 9
+        },
+        "Edema": {
+          "positive": 6,
+          "negative": 2,
+          "uncertain": 0,
+          "blank": 12
+        },
+        "Pleural Effusion": {
+          "positive": 13,
+          "negative": 2,
+          "uncertain": 0,
+          "blank": 5
+        }
+      }
+    }
+  },
+  "original_source_csvs_unchanged": true
+}

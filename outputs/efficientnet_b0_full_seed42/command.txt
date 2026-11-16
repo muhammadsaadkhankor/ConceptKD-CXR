@@ -1,0 +1,5 @@
+Set-Location -LiteralPath 'D:\Grad School\AppliedML\CheXpert\ConceptKD-CXR'
+$env:TORCH_HOME = Join-Path (Get-Location) 'outputs\efficientnet_b0_full_seed42\torch_cache'
+$env:MPLCONFIGDIR = Join-Path (Get-Location) 'outputs\efficientnet_b0_full_seed42\matplotlib_cache'
+& '..\.venv\Scripts\python.exe' -u train_student.py --model efficientnet_b0 --full-data --data-dir 'D:\Grad School\AppliedML\CheXpert\data' --output-dir 'outputs\efficientnet_b0_full_seed42' --device cuda --epochs 2 --batch-size 8 --num-workers 0 --seed 42 --lr 0.0001 --log-every 500 2>&1 | Tee-Object -FilePath 'outputs\efficientnet_b0_full_seed42\training.log'
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }

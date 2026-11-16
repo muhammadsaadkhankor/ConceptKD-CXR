@@ -1,0 +1,51 @@
+# Raw CheXpert data and downloaded archives stay local.
+/data/
+/Dataset/
+/datasets/
+/CheXpert-v1.0-small/
+/CheXpert-v1.0/
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+
+# Python environments, bytecode, and tool caches.
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+**/torch_cache/
+**/hf_cache/
+**/matplotlib_cache/
+**/.cache/
+
+# Credentials and machine-specific editor settings.
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*.docx
+
+# Report-rendering intermediates and transient run diagnostics.
+/outputs/.comparison_report_qa/
+/outputs/**/progress.json
+/outputs/**/cache_warmup_progress.json
+/outputs/**/read_benchmark_paths.json
+*.tmp
+
+# Duplicate source-row manifests; canonical smoke CSVs live in subsets/.
+/outputs/**/train_used.csv
+/outputs/**/valid_used.csv
+
+# Publish the full-run models; retain smoke-test weights locally.
+/outputs/*_smoke_*/student_*.pth

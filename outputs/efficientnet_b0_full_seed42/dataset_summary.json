@@ -1,0 +1,29 @@
+{
+  "model": "efficientnet_b0",
+  "full_data": true,
+  "patient_overlap": 0,
+  "splits": {
+    "train": {
+      "source_csv": "D:\\Grad School\\AppliedML\\CheXpert\\data\\train.csv",
+      "source_sha256": "b4bcd3d7942de23349bbe922a2389185d639cb06a24e700efb4980caae80b8e8",
+      "expected_images": 191027,
+      "patients": 64534,
+      "expected_observed_labels": 262378,
+      "negative_target_labels": 69716,
+      "images_without_target_positive": 67226,
+      "expected_batches": 23879,
+      "expected_last_batch_images": 3
+    },
+    "valid": {
+      "source_csv": "D:\\Grad School\\AppliedML\\CheXpert\\data\\valid.csv",
+      "source_sha256": "aa43403f7bb183a35ae3bb9152896c1fe9a5b297635e0b541e363b776830ec4a",
+      "expected_images": 202,
+      "patients": 200,
+      "expected_observed_labels": 1010,
+      "negative_target_labels": 731,
+      "images_without_target_positive": 74,
+      "expected_batches": 26,
+      "expected_last_batch_images": 2
+    }
+  }
+}

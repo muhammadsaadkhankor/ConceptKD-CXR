@@ -1,0 +1,17 @@
+{
+  "identifier": "mobilenetv4_conv_small.e2400_r224_in1k",
+  "pretrained": true,
+  "pretrained_source": "timm/mobilenetv4_conv_small.e2400_r224_in1k",
+  "cached_revision": "331fb803779522b685cf942e15f914fb6741c1eb",
+  "cached_weights": "D:\\Grad School\\AppliedML\\CheXpert\\ConceptKD-CXR\\outputs\\mobilenetv4_small_smoke_seed42_80_20\\hf_cache\\hub\\models--timm--mobilenetv4_conv_small.e2400_r224_in1k\\snapshots\\331fb803779522b685cf942e15f914fb6741c1eb\\model.safetensors",
+  "weights_sha256": "7a7102ec18f62bbfb555b6fe829bbb5af749516b84174926c29ffdfdfc03aec4",
+  "classifier": "Newly initialized five-output classifier; pretrained 1000-class classifier discarded",
+  "seed": 42,
+  "versions": {
+    "torch": "2.12.1+cu126",
+    "torchvision": "0.27.1+cu126",
+    "timm": "1.0.31",
+    "huggingface_hub": "2.4.0",
+    "safetensors": "0.8.0"
+  }
+}

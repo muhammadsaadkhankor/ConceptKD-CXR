@@ -1,0 +1,10 @@
+{
+  "images_read": 191027,
+  "expected_images": 191027,
+  "bytes_read": 10110910855,
+  "elapsed_seconds": 88.56210860000283,
+  "read_only": true,
+  "io_threads": 16,
+  "images_copied": 0,
+  "training_loader_workers": 0
+}

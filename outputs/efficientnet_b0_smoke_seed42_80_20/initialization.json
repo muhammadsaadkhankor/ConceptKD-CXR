@@ -1,0 +1,11 @@
+{
+  "model": "torchvision.models.efficientnet_b0",
+  "weight_variant": "EfficientNet_B0_Weights.IMAGENET1K_V1",
+  "source_url": "https://download.pytorch.org/models/efficientnet_b0_rwightman-7f5810bc.pth",
+  "pretrained_weights_sha256": "7f5810bc96def8f7552d5b7e68d53c4786f81167d28291b21c0d90e1fca14934",
+  "cached_initialization_weights": "D:\\Grad School\\AppliedML\\CheXpert\\ConceptKD-CXR\\outputs\\efficientnet_b0_smoke_seed42_80_20\\torch_cache\\hub\\checkpoints\\efficientnet_b0_rwightman-7f5810bc.pth",
+  "classifier": "Original 1000-class classifier replaced with newly initialized Linear(1280, 5)",
+  "seed": 42,
+  "torch_version": "2.12.1+cu126",
+  "torchvision_version": "0.27.1+cu126"
+}

@@ -1,0 +1,5 @@
+Set-Location -LiteralPath 'D:\Grad School\AppliedML\CheXpert\ConceptKD-CXR'
+$env:TORCH_HOME = Join-Path (Get-Location) 'outputs\mobilenetv3_small_smoke_seed42_80_20\torch_cache'
+$env:MPLCONFIGDIR = Join-Path (Get-Location) 'outputs\mobilenetv3_small_smoke_seed42_80_20\matplotlib_cache'
+& '..\.venv\Scripts\python.exe' -u train_student.py --data-dir 'D:\Grad School\AppliedML\CheXpert\data' --train-csv 'subsets\target_only_seed42\train_80.csv' --valid-csv 'subsets\target_only_seed42\validation_20.csv' --output-dir 'outputs\mobilenetv3_small_smoke_seed42_80_20' --device cuda --epochs 2 --batch-size 8 --num-workers 0 --seed 42 --lr 0.0001 2>&1 | Tee-Object -FilePath 'outputs\mobilenetv3_small_smoke_seed42_80_20\training.log'
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
