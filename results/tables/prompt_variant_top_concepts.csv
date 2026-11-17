@@ -1,0 +1,8 @@
+CheXpert positives,short,template,report,negated,lay
+"Enlarged Cardiomediastinum, Cardiomegaly",Enlarged cardiac silhouette,Enlarged cardiac silhouette,Enlarged cardiac silhouette,Enlarged cardiac silhouette,Enlarged cardiac silhouette
+"Lung Opacity, Edema",Increased interstitial markings,Increased interstitial markings,Increased interstitial markings,Lung opacities,Increased interstitial markings
+Pleural Effusion,Lung opacities,Blunting of the costophrenic angle,Increased interstitial markings,Pleural fluid,Blunting of the costophrenic angle
+"Lung Opacity, Edema, Consolidation, Atelectasis",Lung opacities,Lung opacities,Increased interstitial markings,Increased interstitial markings,Lung opacities
+"Lung Opacity, Atelectasis",Lung opacities,Lung opacities,Increased interstitial markings,Lung opacities,Pleural fluid
+No Finding,Increased interstitial markings,Increased interstitial markings,Increased interstitial markings,Lung opacities,Increased interstitial markings
+No Finding,Lung opacities,Increased interstitial markings,Increased interstitial markings,Lung opacities,Pleural fluid

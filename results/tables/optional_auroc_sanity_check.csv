@@ -1,0 +1,6 @@
+concept,expected label(s),positives,of,AUROC
+Enlarged cardiac silhouette,Cardiomegaly,49,150,0.765
+Lung opacities,Lung Opacity,88,150,0.661
+Pleural fluid,Pleural Effusion,43,150,0.792
+Increased interstitial markings,Edema,31,150,0.658
+Blunting of the costophrenic angle,Pleural Effusion,43,150,0.493

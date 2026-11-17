@@ -1,0 +1,6 @@
+concept,expected label(s),n expected-positive,mean z (expected +),mean z (others)
+Enlarged cardiac silhouette,Cardiomegaly,1,2.39,-0.4
+Lung opacities,Lung Opacity,3,0.82,-0.61
+Pleural fluid,Pleural Effusion,1,2.05,-0.34
+Increased interstitial markings,Edema,2,0.88,-0.35
+Blunting of the costophrenic angle,Pleural Effusion,1,1.7,-0.28

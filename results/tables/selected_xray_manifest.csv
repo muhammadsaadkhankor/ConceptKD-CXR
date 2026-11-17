@@ -1,0 +1,8 @@
+image,saved_file,chexpert_path,positive_labels
+img0,results\selected_xrays\img0.png,CheXpert-v1.0-small/valid/patient64565/study1/view1_frontal.jpg,"Enlarged Cardiomediastinum, Cardiomegaly"
+img1,results\selected_xrays\img1.png,CheXpert-v1.0-small/valid/patient64563/study1/view1_frontal.jpg,"Lung Opacity, Edema"
+img2,results\selected_xrays\img2.png,CheXpert-v1.0-small/valid/patient64577/study1/view1_frontal.jpg,Pleural Effusion
+img3,results\selected_xrays\img3.png,CheXpert-v1.0-small/valid/patient64555/study1/view1_frontal.jpg,"Lung Opacity, Edema, Consolidation, Atelectasis"
+img4,results\selected_xrays\img4.png,CheXpert-v1.0-small/valid/patient64561/study1/view1_frontal.jpg,"Lung Opacity, Atelectasis"
+img5,results\selected_xrays\img5.png,CheXpert-v1.0-small/valid/patient64544/study1/view1_frontal.jpg,No Finding
+img6,results\selected_xrays\img6.png,CheXpert-v1.0-small/valid/patient64551/study1/view1_frontal.jpg,No Finding

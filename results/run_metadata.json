@@ -1,0 +1,18 @@
+{
+  "model_id": "hf-hub:microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224",
+  "device": "cpu",
+  "seed": 42,
+  "selected_image_count": 7,
+  "frontal_validation_image_count": 202,
+  "concepts": [
+    "Enlarged cardiac silhouette",
+    "Lung opacities",
+    "Pleural fluid",
+    "Increased interstitial markings",
+    "Blunting of the costophrenic angle"
+  ],
+  "dataset_split": "valid",
+  "training_performed": false,
+  "fine_tuning_performed": false,
+  "note": "Cosine similarity and softmax-over-concepts are not calibrated diagnostic probabilities."
+}

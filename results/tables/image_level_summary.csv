@@ -1,0 +1,8 @@
+image,CheXpert positives,top concept (raw),top concept (z-score)
+img0,"Enlarged Cardiomediastinum, Cardiomegaly",Enlarged cardiac silhouette,Enlarged cardiac silhouette
+img1,"Lung Opacity, Edema",Blunting of the costophrenic angle,Blunting of the costophrenic angle
+img2,Pleural Effusion,Blunting of the costophrenic angle,Pleural fluid
+img3,"Lung Opacity, Edema, Consolidation, Atelectasis",Lung opacities,Lung opacities
+img4,"Lung Opacity, Atelectasis",Lung opacities,Lung opacities
+img5,No Finding,Lung opacities,Enlarged cardiac silhouette
+img6,No Finding,Lung opacities,Lung opacities

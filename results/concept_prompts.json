@@ -1,0 +1,27 @@
+{
+  "Enlarged cardiac silhouette": [
+    "enlarged cardiac silhouette",
+    "chest x-ray showing an enlarged heart",
+    "cardiomegaly with increased cardiothoracic ratio"
+  ],
+  "Lung opacities": [
+    "lung opacities",
+    "chest x-ray showing airspace opacity in the lungs",
+    "hazy increased density in the lung fields"
+  ],
+  "Pleural fluid": [
+    "pleural fluid",
+    "chest x-ray showing pleural effusion",
+    "fluid collection in the pleural space"
+  ],
+  "Increased interstitial markings": [
+    "increased interstitial markings",
+    "chest x-ray showing prominent interstitial lung markings",
+    "reticular interstitial pattern in the lungs"
+  ],
+  "Blunting of the costophrenic angle": [
+    "blunting of the costophrenic angle",
+    "chest x-ray with blunted costophrenic angle",
+    "loss of the sharp costophrenic recess"
+  ]
+}
