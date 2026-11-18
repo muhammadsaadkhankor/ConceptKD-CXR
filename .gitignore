@@ -1,0 +1,18 @@
+# Downloaded model weights & caches (regenerable via scripts)
+teachers/
+cache/
+runs/
+*.pt
+*.pth
+
+# Python
+__pycache__/
+*.pyc
+
+# Local artifacts / large generated files
+prog_backup.txt
+chexpert_subset.csv
+concept_targets_biovilt.pt
+teacher_logits_convnext_tiny.pt
+train_100.csv
+viz_*/

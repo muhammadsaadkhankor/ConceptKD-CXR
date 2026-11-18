@@ -1,0 +1,26 @@
+# Default settings for train.py -- CLI flags override these values.
+csv: ../Dataset/train_100.csv
+teacher-cache: cache/teacher_xray-bench_convnext_tiny.pt
+concept-cache: cache/concepts_biovilt.pt
+student: efficientnet_b0.ra_in1k
+mode: Ours
+teacher: xray-bench:convnext_tiny
+concept: biovilt
+lambda-sup: 1.0
+lambda-kd: 1.0
+lambda-con: 0.5
+lambda-map: 0.1
+kd-temp: 2.0
+map-temp: 0.1
+blank-policy: zero
+uncertain-policy: mask
+epochs: 30
+batch-size: 16
+lr: 0.0003
+weight-decay: 0.0001
+seed: 42
+val-frac: 0.2
+num-workers: 0
+num-concepts: 10
+run-name: null
+gradcam: 0

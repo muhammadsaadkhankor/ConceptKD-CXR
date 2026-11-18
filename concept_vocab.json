@@ -1,0 +1,12 @@
+[
+  {"name": "enlarged_cardiac_silhouette", "pos": "enlarged cardiac silhouette", "neg": "normal heart size", "label": "Cardiomegaly"},
+  {"name": "increased_cardiothoracic_ratio", "pos": "increased cardiothoracic ratio", "neg": "normal cardiothoracic ratio", "label": "Cardiomegaly"},
+  {"name": "blunted_costophrenic_angle", "pos": "blunted costophrenic angle", "neg": "sharp costophrenic angles", "label": "Pleural Effusion"},
+  {"name": "basal_fluid_meniscus", "pos": "fluid meniscus at the lung base", "neg": "clear lung bases", "label": "Pleural Effusion"},
+  {"name": "air_bronchograms", "pos": "air bronchograms", "neg": "no air bronchograms", "label": "Consolidation"},
+  {"name": "lobar_opacity", "pos": "dense lobar opacity", "neg": "clear lungs without focal opacity", "label": "Consolidation"},
+  {"name": "perihilar_haziness", "pos": "perihilar haziness", "neg": "clear perihilar regions", "label": "Edema"},
+  {"name": "interstitial_lines", "pos": "interstitial thickening with Kerley B lines", "neg": "no interstitial thickening", "label": "Edema"},
+  {"name": "plate_like_opacity", "pos": "linear plate-like opacity", "neg": "no linear opacity", "label": "Atelectasis"},
+  {"name": "volume_loss", "pos": "lung volume loss with fissure shift", "neg": "normal lung volumes", "label": "Atelectasis"}
+]
