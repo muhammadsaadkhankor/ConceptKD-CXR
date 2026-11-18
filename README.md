@@ -49,9 +49,9 @@ Each run writes `runs/<run_name>/metrics.json` (per-label AUROC/AUPRC, Youden-J 
 
 ## What the student learns
 
-Grad-CAM on the disease head (right = where the model looked):
+Grad-CAM on the disease head - where the model looked (Edema example):
 
-![Grad-CAM Cardiomegaly](assets/gradcam_cardiomegaly.png)
+![Grad-CAM Edema](assets/gradcam_edema.png)
 
 Student concept CAMs vs cached BioViL-T target maps (middle vs right; rows are the 10 concepts):
 
